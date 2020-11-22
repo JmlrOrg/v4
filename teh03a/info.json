@@ -1,0 +1,18 @@
+{
+    "abstract": "We present a new way of extending independent components analysis\n(ICA) to overcomplete representations. In contrast to the causal\ngenerative extensions of ICA which maintain marginal independence of\n<em>sources</em>, we define <em>features</em> as deterministic (linear)\nfunctions of the inputs. This assumption results in marginal\n<em>dependencies</em> among the features, but <em>conditional\nindependence</em> of the features given the inputs.  By assigning energies\nto the features a probability distribution over the input states is\ndefined through the Boltzmann distribution. Free parameters of this\nmodel are trained using the contrastive divergence objective (Hinton, 2002).  When the number of features is equal to the number\nof input dimensions this energy-based model reduces to noiseless ICA\nand we show experimentally that the proposed learning algorithm is\nable to perform blind source separation on speech data. In additional\nexperiments we train overcomplete energy-based models to extract\nfeatures from various standard data-sets containing speech, natural\nimages, hand-written digits and faces.",
+    "authors": [
+        "Yee Whye Teh",
+        "Max Welling",
+        "Simon Osindero",
+        "Geoffrey E. Hinton"
+    ],
+    "id": "teh03a",
+    "issue": 46,
+    "pages": [
+        1235,
+        1260
+    ],
+    "title": "Energy-Based Models for Sparse Overcomplete Representations",
+    "volume": "4",
+    "year": "2003"
+}

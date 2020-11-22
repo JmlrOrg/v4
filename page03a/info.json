@@ -1,0 +1,16 @@
+{
+    "abstract": "Inductive logic programming (ILP) is built on a foundation laid by\nresearch in machine learning and computational logic.\nArmed with this strong foundation, ILP has been applied\nto important and interesting problems in the life sciences, \nengineering and the arts.\nThis paper begins by briefly reviewing some example applications, in order\nto illustrate the benefits of ILP.\nIn turn, the applications have brought\ninto focus the need for more research into specific topics.\nWe enumerate and elaborate five of these: (1) novel search methods;\n(2) incorporation of explicit probabilities; (3) incorporation\nof special-purpose reasoners; (4) parallel execution using\ncommodity components; and (5) enhanced human interaction.\nIt is our hypothesis that progress in each of these areas\ncan greatly improve the contributions that can be made with ILP;\nand that, with assistance from research workers in other areas,\nsignificant progress in each of these areas is possible.",
+    "authors": [
+        "David Page",
+        "Ashwin Srinivasan"
+    ],
+    "id": "page03a",
+    "issue": 18,
+    "pages": [
+        415,
+        430
+    ],
+    "title": "ILP: A Short Look Back and a Longer Look Forward",
+    "volume": "4",
+    "year": "2003"
+}

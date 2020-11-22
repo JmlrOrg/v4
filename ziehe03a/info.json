@@ -1,0 +1,18 @@
+{
+    "abstract": "We propose two methods that reduce the post-nonlinear blind\n  source separation problem (PNL-BSS) to a linear BSS problem.  The\n  first method is based on the concept of <em>maximal correlation</em>:\n  we apply the alternating conditional expectation (ACE) algorithm---a\n  powerful technique from non-parametric statistics---to approximately invert\n  the componentwise non-linear functions.\n  The second method is a Gaussianizing transformation, which is\n  motivated by the fact that linearly mixed signals before nonlinear\n  transformation are approximately Gaussian distributed.  This\n  heuristic, but simple and efficient procedure works as good as the\n  ACE method.\n  Using the framework provided by ACE, convergence can be proven.  The\n  optimal transformations obtained by ACE coincide with the\n  sought-after inverse functions of the nonlinearities.\n  After equalizing the nonlinearities, temporal decorrelation separation (TDSEP)\n  allows us to recover the source signals. Numerical simulations\n  testing  \"ACE-TD\" and \"Gauss-TD\" on realistic examples are performed with\n  excellent results.",
+    "authors": [
+        "Andreas Ziehe",
+        "Motoaki Kawanabe",
+        "Stefan Harmeling",
+        "Klaus-Robert M&uuml;ller"
+    ],
+    "id": "ziehe03a",
+    "issue": 50,
+    "pages": [
+        1319,
+        1338
+    ],
+    "title": "Blind Separation of Post-nonlinear Mixtures using Linearizing Transformations and Temporal Decorrelation",
+    "volume": "4",
+    "year": "2003"
+}

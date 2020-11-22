@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWe compare Bayes Model Averaging, BMA, to a non-Bayes form of model\naveraging called stacking.  In stacking, the weights are no longer \nposterior probabilities of models; they are obtained by a \ntechnique based on cross-validation.  When the correct data generating \nmodel (DGM) is on the list of\nmodels under consideration BMA is never worse than\nstacking and often is demonstrably better, provided that\nthe noise level is of order commensurate with the coefficients and\nexplanatory variables.\nHere, however, we focus on the case that the correct DGM is not \non the model list and may not be well \napproximated by the elements on the model list.\n</p>\n<p>\nWe give a sequence of computed examples by choosing model lists and \nDGM's to contrast the risk performance of stacking and BMA.  \nIn the first examples, the model \nlists are chosen to reflect geometric principles that should\ngive good performance.  In these cases, stacking typically outperforms \nBMA, sometimes by a wide margin. \nIn the second set of examples we examine how stacking and BMA \nperform when the model list\nincludes all subsets of a set of potential predictors.\nWhen we standardize the size of terms and coefficients in this\nsetting, we find that BMA \noutperforms stacking when the deviant terms in the DGM 'point' in \ndirections accommodated by the model list but that when the deviant term\npoints outside the model list stacking seems to do better.\n</p>\n<p>\nOverall, our results suggest the stacking has better robustness\nproperties than BMA in the most important settings.\n</p>",
+    "authors": [
+        "Bertrand Clarke"
+    ],
+    "id": "clarke03a",
+    "issue": 27,
+    "pages": [
+        683,
+        712
+    ],
+    "title": "Comparing Bayes Model Averaging and Stacking When Model Approximation Error Cannot be Ignored",
+    "volume": "4",
+    "year": "2003"
+}

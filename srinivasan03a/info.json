@@ -1,0 +1,17 @@
+{
+    "abstract": "Inductive Logic Programming (ILP) systems construct models\nfor data using domain-specific background information.\nWhen using these systems, it is typically assumed that\nsufficient human expertise is at hand to rule out\nirrelevant background information. Such irrelevant information can, and\ntypically does, hinder an ILP system's search for good models.\nHere, we provide evidence that if expertise\nis available that can provide a partial-ordering\non sets of background predicates in terms of\nrelevance to the analysis task, then this can be used to good effect by\nan ILP system. In particular, using data from biochemical domains,\nwe investigate an incremental strategy of including sets of predicates\nin decreasing order of relevance. Results obtained suggest that:\n(a) the incremental approach identifies, in substantially less time,\na model that is comparable in predictive accuracy to that\nobtained with all background information in place; and\n(b) the incremental approach using the relevance ordering performs\nbetter than one that does not (that is, one that adds sets\nof predicates randomly).\nFor a practitioner concerned with use of ILP,\nthe implication of these findings are two-fold:\n(1) when not all background information can be used\nat once (either due to limitations of the ILP system, or\nthe nature of the domain) expert assessment of the relevance\nof background predicates can assist substantially\nin the construction of good models; and\n(2) good \"first-cut\" results can be obtained quickly by a simple exclusion of\ninformation known to be less relevant.",
+    "authors": [
+        "Ashwin Srinivasan",
+        "Ross D. King",
+        "Michael E. Bain"
+    ],
+    "id": "srinivasan03a",
+    "issue": 15,
+    "pages": [
+        369,
+        383
+    ],
+    "title": "An Empirical Study of the Use of Relevance Information in Inductive Logic Programming",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose adaptive testing as a general mechanism for extracting\ninformation about stimuli from spike trains.  Each test or question\ncorresponds to choosing a neuron and a time interval and checking for\na given number of spikes.  No assumptions are made about the\ndistribution of spikes or any other aspect of neural encoding.  The\nchosen questions are those which most reduce the uncertainty about the\nstimulus, as measured by entropy and estimated from stimulus-response\ndata.  Our experiments are based on accurate simulations of responses\nto pure tones in the auditory nerve and are meant to illustrate the\nideas rather than investigate the auditory system.  The results cohere\nnicely with well-understood encoding of amplitude and frequency in the\nauditory nerve, suggesting that adaptive testing might provide a\npowerful tool for investigating complex and poorly understood neural\nstructures.",
+    "authors": [
+        "Christian d'Avignon",
+        "Donald Geman"
+    ],
+    "id": "davignon03a",
+    "issue": 29,
+    "pages": [
+        743,
+        754
+    ],
+    "title": "Tree-Structured Neural Decoding",
+    "volume": "4",
+    "year": "2003"
+}

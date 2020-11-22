@@ -1,0 +1,15 @@
+{
+    "abstract": "We describe a new boosting algorithm which generates only smooth\ndistributions which do not assign too much weight to any single example.  \nWe show that this new boosting algorithm can be used to construct\nefficient PAC learning algorithms which tolerate relatively high rates of\nmalicious noise.  In particular, we use the new smooth boosting algorithm\nto construct malicious noise tolerant versions of the PAC-model <i>p</i>-norm\nlinear threshold learning algorithms described by Servedio (2002).\nThe bounds on sample complexity and malicious noise tolerance of these new\nPAC algorithms closely correspond to known bounds for the online <i>p</i>-norm\nalgorithms of Grove, Littlestone and Schuurmans (1997)\nand Gentile and Littlestone (1999).\nAs special cases of our new\nalgorithms we obtain linear threshold learning algorithms which match the\nsample complexity and malicious noise tolerance of the online Perceptron\nand Winnow algorithms.  Our analysis reveals an interesting connection\nbetween boosting and noise tolerance in the PAC setting.",
+    "authors": [
+        "Rocco A. Servedio"
+    ],
+    "id": "servedio03a",
+    "issue": 25,
+    "pages": [
+        633,
+        648
+    ],
+    "title": "Smooth Boosting and Learning with Malicious Noise",
+    "volume": "4",
+    "year": "2003"
+}

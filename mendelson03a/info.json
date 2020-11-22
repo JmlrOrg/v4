@@ -1,0 +1,15 @@
+{
+    "abstract": "We present sharp bounds on the localized Rademacher averages of\nthe unit ball in a reproducing kernel Hilbert space in terms of\nthe eigenvalues of the integral operator associated with the\nkernel. We use this result to estimate the performance of the\nempirical minimization algorithm when the base class is the unit\nball of the reproducing kernel Hilbert space.",
+    "authors": [
+        "Shahar Mendelson"
+    ],
+    "id": "mendelson03a",
+    "issue": 30,
+    "pages": [
+        759,
+        771
+    ],
+    "title": "On the Performance of Kernel Classes",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "The problem of dimensionality reduction arises in many fields of\ninformation processing, including machine learning, data compression,\nscientific visualization, pattern recognition, and neural computation.\nHere we describe locally linear embedding (LLE), an unsupervised\nlearning algorithm that computes low dimensional, neighborhood\npreserving embeddings of high dimensional data.  The data, assumed to\nbe sampled from an underlying manifold, are mapped \ninto a single global coordinate\nsystem of lower dimensionality.  The mapping is derived from the\nsymmetries of locally linear reconstructions, and the actual\ncomputation of the embedding reduces to a sparse eigenvalue problem.\nNotably, the optimizations in LLE---though capable of generating\nhighly nonlinear embeddings---are simple to implement, and they do not\ninvolve local minima.  In this paper, we \ndescribe the implementation of the algorithm\nin detail and discuss several extensions that enhance its performance.\nWe present results of the algorithm applied to data sampled from\nknown manifolds, as well as to collections of images of\nfaces, lips, and handwritten digits.  These examples\nare used to provide extensive illustrations of\nthe algorithm's performance---both successes and failures---and \nto relate the algorithm to previous and ongoing work in \nnonlinear dimensionality reduction.",
+    "authors": [
+        "Lawrence K. Saul",
+        "Sam T. Roweis"
+    ],
+    "id": "saul03a",
+    "issue": 7,
+    "pages": [
+        119,
+        155
+    ],
+    "title": "Think Globally, Fit Locally: Unsupervised Learning of Low Dimensional Manifolds",
+    "volume": "4",
+    "year": "2003"
+}

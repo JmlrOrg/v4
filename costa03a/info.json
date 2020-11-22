@@ -1,0 +1,23 @@
+{
+    "abstract": "Relatively simple transformations can speed up the execution of\nqueries for data mining considerably.  While some ILP systems use such\ntransformations, relatively little is known about them or\nhow they relate to each other.  This paper describes a number of such transformations.\nNot all of them are novel, but there have been no studies comparing their\nefficacy.  The main contributions of the\npaper are: (a) it clarifies the relationship between the transformations;\n(b) it contains an empirical study of what can be gained by applying the transformations;\nand (c) it provides some guidance on the kinds of problems that are likely to\nbenefit from the transformations.",
+    "authors": [
+        "V&iacute;tor Santos Costa",
+        "Ashwin Srinivasan",
+        "Rui Camacho",
+        "Hendrik Blockeel",
+        "Bart Demoen",
+        "Gerda Janssens",
+        "Jan Struyf",
+        "Henk Vandecasteele",
+        "Wim Van Laer"
+    ],
+    "id": "costa03a",
+    "issue": 20,
+    "pages": [
+        465,
+        491
+    ],
+    "title": "Query Transformations for Improving the Efficiency of ILP Systems",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "We present a domain-independent ICA-based approach to watermarking.\n  This approach can be used on images, music or video to embed either\n  a robust or fragile watermark.\n  In the case of robust watermarking, the method shows high\n  information rate and robustness against malicious and non-malicious\n  attacks, while keeping a low induced distortion.  The fragile\n  watermarking scheme, on the other hand, shows high sensitivity to\n  tampering attempts while keeping the requirement for high\n  information rate and low distortion. The improved performance is\n  achieved by employing a set of statistically independent sources\n  (the independent components) as the feature space and principled\n  statistical decoding methods. The performance of the suggested\n  method is compared to other state of the art approaches. The paper\n  focuses on applying the method to digitized images although the same\n  approach can be used for other media, such as music or video.",
+    "authors": [
+        "St&eacute;phane Bounkong",
+        "Bor&eacute;mi Toch",
+        "David Saad",
+        "David Lowe"
+    ],
+    "id": "bounkong03a",
+    "issue": 56,
+    "pages": [
+        1471,
+        1498
+    ],
+    "title": "ICA for Watermarking Digital Images",
+    "volume": "4",
+    "year": "2003"
+}

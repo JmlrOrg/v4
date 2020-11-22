@@ -1,0 +1,16 @@
+{
+    "abstract": "This work introduces <i>FINkNN</i>, a k-nearest-neighbor classifier operating over the metric lattice of\nconventional interval-supported convex fuzzy sets. We show that for problems involving\npopulations of measurements, data can be represented by fuzzy interval numbers (FINs) and we\npresent an algorithm for constructing FINs from such populations. We then present a lattice-theoretic\nmetric distance between FINs with arbitrary-shaped\nmembership functions, which forms\nthe basis for <i>FINkNN</i>'s similarity measurements. We apply <i>FINkNN</i> to the task of predicting\nannual sugar production based on populations of measurements supplied by Hellenic Sugar\nIndustry. We show that <i>FINkNN</i> improves prediction accuracy on this task, and discuss the\nbroader scope and potential utility of these techniques.",
+    "authors": [
+        "Vassilios Petridis",
+        "Vassilis G. Kaburlasos"
+    ],
+    "id": "petridis03a",
+    "issue": 2,
+    "pages": [
+        17,
+        37
+    ],
+    "title": "FINkNN: A Fuzzy Interval Number k-Nearest Neighbor Classifier for Prediction of Sugar Production from Populations of Samples",
+    "volume": "4",
+    "year": "2003"
+}

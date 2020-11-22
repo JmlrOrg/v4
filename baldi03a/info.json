@@ -1,0 +1,16 @@
+{
+    "abstract": "We describe a general methodology for the design of large-scale recursive neural network architectures (DAG-RNNs) which comprises three fundamental steps: (1) representation of a given domain using suitable \ndirected acyclic graphs (DAGs) to connect visible and hidden node variables; (2) parameterization of the relationship between each variable and its parent variables by feedforward neural networks; and (3) application of weight-sharing within appropriate subsets of DAG connections to capture stationarity and control model complexity. Here we use these principles to derive several <em>specific</em> classes of DAG-RNN architectures based on lattices, trees, and other structured graphs. These architectures can process a wide range of data structures with variable sizes and dimensions. While the overall resulting models remain probabilistic, the internal deterministic dynamics allows efficient propagation of information, as well as training by gradient descent, \nin order to tackle large-scale problems. These methods are used here to derive\nstate-of-the-art predictors for protein structural features such as secondary structure (1D) and both fine- and coarse-grained contact maps\n(2D). \nExtensions, relationships to graphical models, and implications for\n    the design of neural architectures are briefly discussed. The\n    protein prediction servers are available over the Web at:  <a\n\t\t\t\t\t\t\t\t  target=_new href=\"http://www.igb.uci.edu/tools.htm\">www.igb.uci.edu/tools.htm</a>.",
+    "authors": [
+        "Pierre Baldi",
+        "Gianluca Pollastri"
+    ],
+    "id": "baldi03a",
+    "issue": 23,
+    "pages": [
+        575,
+        602
+    ],
+    "title": "The Principled Design of Large-Scale Recursive Neural Network Architectures--DAG-RNNs and the Protein Structure Prediction Problem",
+    "volume": "4",
+    "year": "2003"
+}

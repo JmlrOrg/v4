@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nInformation extraction is a form of shallow text processing that locates a\nspecified set of relevant items in a natural-language document. Systems for\nthis task require significant domain-specific knowledge and are time-consuming\nand difficult to build by hand, making them a good application for machine\nlearning.  We present an algorithm, RAPIER, that uses pairs of\nsample documents and filled templates to induce pattern-match rules that\ndirectly extract fillers for the slots in the template.  RAPIER is a\nbottom-up learning algorithm that incorporates techniques from several\ninductive logic programming systems.  We have \nimplemented the algorithm in a system that allows patterns to have\nconstraints on the words, part-of-speech tags, and semantic classes\npresent in the filler and the surrounding text.  We present encouraging\nexperimental results on two domains.\n</p>",
+    "authors": [
+        "Mary Elaine Califf",
+        "Raymond J. Mooney"
+    ],
+    "id": "califf03a",
+    "issue": 9,
+    "pages": [
+        177,
+        210
+    ],
+    "title": "Bottom-Up Relational Learning of Pattern Matching Rules for Information Extraction",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Bayesian approaches to learning and estimation have played a\nsignificant role in the Statistics literature over many years.\nWhile they are often provably optimal in a frequentist setting,\nand lead to excellent performance in practical applications, there\nhave not been many precise characterizations of their performance\nfor finite sample sizes under general conditions. In this paper we\nconsider the class of Bayesian mixture algorithms, where an\nestimator is formed by constructing a data-dependent mixture over\nsome hypothesis space. Similarly to what is observed in practice,\nour results demonstrate that mixture approaches are particularly\nrobust, and allow for the construction of highly complex\nestimators, while avoiding undesirable overfitting effects. Our\nresults, while being data-dependent in nature, are insensitive to\nthe underlying model assumptions, and apply whether or not these\nhold. At a technical level, the approach applies to unbounded\nfunctions, constrained only by certain moment conditions. Finally,\nthe bounds derived can be directly applied to non-Bayesian mixture\napproaches such as Boosting and Bagging.",
+    "authors": [
+        "Ron Meir",
+        "Tong Zhang"
+    ],
+    "id": "meir03a",
+    "issue": 33,
+    "pages": [
+        839,
+        860
+    ],
+    "title": "Generalization Error Bounds for Bayesian Mixture Algorithms",
+    "volume": "4",
+    "year": "2003"
+}

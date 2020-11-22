@@ -1,0 +1,16 @@
+{
+    "abstract": "We extend Q-learning to a noncooperative multiagent context, using the\nframework of general-sum stochastic games.  A learning agent maintains\nQ-functions over joint actions, and performs updates based on assuming\nNash equilibrium behavior over the current Q-values.  This learning\nprotocol provably converges given certain restrictions on the stage\ngames (defined by Q-values) that arise during learning.  Experiments with a pair of two-player\ngrid games suggest that such restrictions on the game structure are\nnot necessarily required.  \nStage games encountered during learning in both grid environments violate the conditions.\nHowever, learning\nconsistently converges in the first grid game, which has a unique\nequilibrium Q-function, but sometimes fails to converge in the\nsecond, which has three different equilibrium Q-functions.\nIn a comparison of offline learning performance in\nboth games, we find agents are more likely to reach a joint optimal\npath with Nash Q-learning than with a single-agent Q-learning\nmethod.  When at least one agent adopts Nash Q-learning,\nthe performance of both agents is better than using single-agent\nQ-learning.  We have also implemented an online version of Nash\nQ-learning that balances exploration with exploitation,\nyielding improved performance.",
+    "authors": [
+        "Junling Hu",
+        "Michael P. Wellman"
+    ],
+    "id": "hu03a",
+    "issue": 40,
+    "pages": [
+        1039,
+        1069
+    ],
+    "title": "Nash Q-Learning for General-Sum Stochastic Games",
+    "volume": "4",
+    "year": "2003"
+}

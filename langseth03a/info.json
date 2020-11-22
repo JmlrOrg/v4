@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\n  When constructing a Bayesian network, it can be advantageous to\n  employ structural learning algorithms to combine knowledge\n  captured in databases with prior information provided by domain\n  experts. Unfortunately, conventional learning algorithms do not\n  easily incorporate prior information, if this information is too\n  vague to be encoded as properties that are local to families of\n  variables. For instance, conventional algorithms do not exploit\n  prior information about repetitive structures, which are often found\n  in object oriented domains such as computer networks, large\n  pedigrees and genetic analysis.\n</p>\n<p>\n  In this paper we propose a method for doing structural\n  learning in object oriented domains. It is demonstrated that this\n  method is more efficient than conventional algorithms in such\n  domains, and it is argued that the method supports a natural approach for\n  expressing and incorporating prior information provided by\n  domain experts.\n</p>",
+    "authors": [
+        "Helge Langseth",
+        "Thomas D. Nielsen"
+    ],
+    "id": "langseth03a",
+    "issue": 14,
+    "pages": [
+        339,
+        368
+    ],
+    "title": "Fusion of Domain Knowledge with Data for Structural Learning in Object Oriented Domains",
+    "volume": "4",
+    "year": "2003"
+}

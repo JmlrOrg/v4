@@ -1,0 +1,17 @@
+{
+    "abstract": "A common way of constructing a multiclass classifier is by\ncombining the outputs of several binary ones, according to an\nerror-correcting output code (ECOC) scheme. The combination is\ntypically done via a simple nearest-neighbor rule that finds the\nclass that is closest in some sense to the outputs of the binary\nclassifiers. For these nearest-neighbor ECOCs, we improve existing\nbounds on the error rate of the multiclass classifier given the\naverage binary distance. The new bounds provide insight into the\none-versus-rest and all-pairs matrices, which are compared through\nexperiments with standard datasets. The results also show why\n<i>elimination</i> (also known as DAGSVM) and Hamming decoding\noften achieve the same accuracy.",
+    "authors": [
+        "Aldebaro Klautau",
+        "Nikola Jevti&#263;",
+        "Alon Orlitsky"
+    ],
+    "id": "klautau03a",
+    "issue": 1,
+    "pages": [
+        1,
+        15
+    ],
+    "title": "On Nearest-Neighbor Error-Correcting Output Codes with Application to All-Pairs Multiclass Support Vector Machines",
+    "volume": "4",
+    "year": "2003"
+}

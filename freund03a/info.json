@@ -1,0 +1,18 @@
+{
+    "abstract": "We study the problem of learning to accurately rank a set of objects\nby combining a given collection of ranking or preference functions.\nThis problem of combining preferences arises in several applications,\nsuch as that of combining the results of different search engines, or\nthe \"collaborative-filtering\" problem of ranking movies for a user\nbased on the movie rankings provided by other users.\nIn this work, we begin by presenting a formal framework for this\ngeneral problem.\nWe then describe and analyze an efficient algorithm called RankBoost for combining preferences based on the boosting approach to machine\nlearning.\nWe give theoretical results describing the algorithm's behavior both\non the training data, and on new test data not seen during training.\nWe also describe an efficient implementation of the\nalgorithm for a particular restricted but common case.\nWe next discuss two experiments we carried\nout to assess the performance of RankBoost. In the first experiment,\nwe used the algorithm to combine different web search strategies, each of\nwhich is a query expansion for a given domain.\nThe second experiment is a collaborative-filtering task\nfor making movie recommendations.",
+    "authors": [
+        "Yoav Freund",
+        "Raj Iyer",
+        "Robert E. Schapire",
+        "Yoram Singer"
+    ],
+    "id": "freund03a",
+    "issue": 37,
+    "pages": [
+        933,
+        969
+    ],
+    "title": "An Efficient Boosting Algorithm for Combining Preferences",
+    "volume": "4",
+    "year": "2003"
+}

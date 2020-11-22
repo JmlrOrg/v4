@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe consider the problem of learning  with instances defined over a space of\nsets of vectors. We derive a new positive definite kernel <i>f</i>(<i>A</i>,<i>B</i>) defined over\npairs of matrices <i>A</i>,<i>B</i> based on the concept of principal angles between two\nlinear subspaces. We show that the principal angles can be recovered\nusing only inner-products between pairs of column vectors of the input\nmatrices thereby allowing the original column vectors of <i>A</i>,<i>B</i> to be\nmapped onto arbitrarily high-dimensional feature spaces. \n</p>\n<p>\nWe demonstrate the usage of the matrix-based kernel function <i>f</i>(<i>A</i>,<i>B</i>)\nwith experiments on two visual tasks. The first task \nis the discrimination of \"irregular\" motion trajectory of an individual or a\ngroup of individuals in a video sequence. We use the SVM approach\nusing <i>f</i>(<i>A</i>,<i>B</i>) where an input matrix\nrepresents the motion trajectory of a group of individuals over a\ncertain (fixed) time frame. We show that the classification\n(irregular versus regular) greatly outperforms the\nconventional representation where all the trajectories form a single\nvector. The second application is the visual recognition of faces from\ninput video sequences representing head motion and facial expressions\nwhere <i>f</i>(<i>A</i>,<i>B</i>) is used to compare two image sequences.\n</p>",
+    "authors": [
+        "Lior Wolf",
+        "Amnon Shashua"
+    ],
+    "id": "wolf03a",
+    "issue": 36,
+    "pages": [
+        913,
+        931
+    ],
+    "title": "Learning over Sets using Kernel Principal Angles",
+    "volume": "4",
+    "year": "2003"
+}

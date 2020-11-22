@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nModeling a collection of similar regression or classification tasks can \nbe improved by making the tasks 'learn from each other'. In machine learning, \nthis subject is approached through 'multitask learning', where parallel tasks\nare modeled as multiple outputs of the same network. In multilevel\nanalysis this is generally implemented through the mixed-effects\nlinear model where a distinction is made between 'fixed effects', which\nare the same for all tasks, and 'random effects', which may vary\nbetween tasks. In the present article we will adopt\na Bayesian approach in which some of the model parameters are \nshared (the same for all tasks) and others more loosely connected through\na joint prior distribution that can be learned from the data. We seek\nin this way to combine the best parts of both the statistical\nmultilevel approach and the neural network machinery.\n</p>\n<p>\nThe standard assumption expressed in both approaches is that each \ntask can learn equally well from any other task. In this article we extend \nthe model by allowing more differentiation in the similarities between tasks.\nOne such extension is to make the prior\nmean depend on higher-level task characteristics. More unsupervised\nclustering of tasks is obtained if we go from a single Gaussian prior\nto a mixture of Gaussians. This can be further generalized to a\nmixture of experts architecture with the gates depending on \ntask characteristics.\n</p>\n<p>\nAll three extensions are demonstrated through application both on an\nartificial data set and on two real-world problems, one a school\nproblem and the other involving single-copy newspaper sales. \n</p>",
+    "authors": [
+        "Bart Bakker",
+        "Tom Heskes"
+    ],
+    "id": "bakker03a",
+    "issue": 5,
+    "pages": [
+        83,
+        99
+    ],
+    "title": "Task Clustering and Gating for Bayesian Multitask Learning",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "Various optimality properties of universal sequence predictors\nbased on Bayes-mixtures in general, and Solomonoff's prediction\nscheme in particular, will be studied.\n\nThe probability of observing <i>x</i><sub><i>t</i></sub> at time <i>t</i>, given past\nobservations <i>x</i><sub>1</sub>...<i>x</i><sub><i>t</i>-1</sub> can be computed with the chain rule\nif the true generating distribution &mu; of the sequences\n<i>x</i><sub>1</sub><i>x</i><sub>2</sub><i>x</i><sub>3</sub>.... is known. If &mu; is unknown, but known to belong\nto a countable or continuous class &Mu; one can base ones\nprediction on the Bayes-mixture &xi; defined as a\n<i>w</i><sub>&nu;</sub>-weighted sum or integral of distributions &nu;\n&isin; &Mu;. The\ncumulative expected loss of the Bayes-optimal universal prediction\nscheme based on &xi; is shown to be close to the loss of the\nBayes-optimal, but infeasible prediction scheme based on &mu;. We\nshow that the bounds are tight and that no other predictor can\nlead to significantly smaller bounds.\n\nFurthermore, for various performance measures, we show\nPareto-optimality of &xi; and give an Occam's razor argument that\nthe choice <i>w</i><sub>&nu;</sub> &sim 2<sup>-<i>K</i>(&nu;)</sup> for the weights is optimal,\nwhere <i>K</i>(&nu;) is the length of the shortest program describing\n&nu;.\n\nThe results are applied to games of chance, defined as a sequence\nof bets, observations, and rewards.\n\nThe prediction schemes (and bounds) are compared to the popular\npredictors based on expert advice.\n\nExtensions to infinite alphabets, partial, delayed and\nprobabilistic prediction, classification, and more active systems\nare briefly discussed.",
+    "authors": [
+        "Marcus Hutter"
+    ],
+    "id": "hutter03a",
+    "issue": 38,
+    "pages": [
+        971,
+        1000
+    ],
+    "title": "Optimality of Universal Bayesian Sequence Prediction for General Loss and Alphabet",
+    "volume": "4",
+    "year": "2003"
+}

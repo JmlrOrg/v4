@@ -1,0 +1,16 @@
+{
+    "abstract": "Using a novel reformulation, we develop a\nframework to compute approximate resampling data averages\nanalytically. The method avoids multiple retraining of statistical models\non the samples. Our approach uses a combination of\nthe replica \"trick\" of statistical physics and the TAP approach for\napproximate\nBayesian inference. We demonstrate our approach on regression with Gaussian\nprocesses. A comparison with averages obtained by Monte-Carlo\nsampling shows that our method achieves good accuracy.",
+    "authors": [
+        "D&ouml;rthe Malzahn",
+        "Manfred Opper"
+    ],
+    "id": "malzahn03a",
+    "issue": 43,
+    "pages": [
+        1151,
+        1173
+    ],
+    "title": "An Approximate Analytical Approach to Resampling Averages",
+    "volume": "4",
+    "year": "2003"
+}

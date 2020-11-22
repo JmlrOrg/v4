@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a generalization of independent component analysis\r\n(ICA), where instead of looking for a linear transform that makes\r\nthe data components independent, we look for a transform that\r\nmakes the data components well fit by a tree-structured graphical\r\nmodel.  This <em>tree-dependent component analysis (TCA)</em>\r\nprovides a tractable and flexible approach to weakening the\r\nassumption of independence in ICA.  In particular, TCA allows the\r\nunderlying graph to have multiple connected components, and thus\r\nthe method is able to find \"clusters\" of components such that\r\ncomponents are dependent within a cluster and independent between\r\nclusters.  Finally, we make use of a notion of graphical models\r\nfor time series due to Brillinger (1996) to extend these ideas\r\nto the temporal setting.  In particular, we are able to fit models\r\nthat incorporate tree-structured dependencies among multiple time\r\nseries.",
+    "authors": [
+        "Francis R. Bach",
+        "Michael I. Jordan"
+    ],
+    "id": "bach03a",
+    "issue": 45,
+    "pages": [
+        1205,
+        1233
+    ],
+    "title": "Beyond Independent Components: Trees and Clusters",
+    "volume": "4",
+    "year": "2003"
+}

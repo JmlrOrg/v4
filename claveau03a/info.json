@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper describes an inductive logic programming learning method designed to\nacquire from a corpus specific Noun-Verb (N-V) pairs---relevant in information\nretrieval applications to perform index expansion---in\norder to build up semantic lexicons based on Pustejovsky's generative lexicon\n(GL) principles (Pustejovsky, 1995). In one of the components of this lexical model,\ncalled the <em>qualia structure</em>, words are described in terms of semantic\nroles. For example, the <em>telic</em> role indicates the purpose or function of\nan item (<em>cut</em> for <em>knife</em>), the agentive role its creation mode\n(<em>build</em> for <em>house</em>), etc. The qualia structure of a noun is\nmainly made up of verbal associations, encoding relational information. The\nlearning method enables us to\nautomatically extract, from a morpho-syntactically and semantically tagged\ncorpus, N-V pairs whose elements are linked by one of the semantic relations\ndefined in the qualia structure in GL. It also infers rules explaining what in\nthe surrounding context distinguishes such pairs from others also\nfound in sentences of the corpus but which are not relevant. Stress is put here on the\nlearning efficiency that is required to be able to deal with all the available\ncontextual information, and to produce linguistically meaningful rules.",
+    "authors": [
+        "Vincent Claveau",
+        "Pascale S&eacute;billot",
+        "C&eacute;cile Fabre",
+        "Pierrette Bouillon"
+    ],
+    "id": "claveau03a",
+    "issue": 21,
+    "pages": [
+        493,
+        525
+    ],
+    "title": "Learning Semantic Lexicons from a Part-of-Speech and Semantically Tagged Corpus Using Inductive Logic Programming",
+    "volume": "4",
+    "year": "2003"
+}

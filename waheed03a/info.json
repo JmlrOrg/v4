@@ -1,0 +1,16 @@
+{
+    "abstract": "Blind Source Recovery (BSR) denotes recovery of original\nsources/signals from environments that may include convolution,\ntemporal variation, and even nonlinearity.  It also infers the\nrecovery of sources even in the absence of precise environment\nidentifiability.  This paper describes, in a comprehensive fashion, a\ngeneralized BSR formulation achieved by the application of stochastic\noptimization principles to the Kullback-Liebler divergence as a\nperformance functional subject to the constraints of the general\n(i.e., nonlinear and time-varying) state space representation.  This\ntechnique is used to derive update laws for nonlinear time-varying\ndynamical systems, which are subsequently specialized to\ntime-invariant and linear systems.  Further, the state space demixing\nnetwork structures have been exploited to develop learning rules,\ncapable of handling most filtering paradigms, which can be\nconveniently extended to nonlinear models.  In the special cases,\ndistinct linear state-space algorithms are presented for the minimum\nphase and non-minimum phase mixing environment models.  Conventional\n(FIR/IIR) filtering models are subsequently derived from this general\nstructure and are compared with material in the recent literature.\nIllustrative simulation examples are presented to demonstrate the\n<em>online</em> adaptation capabilities of the developed algorithms.\nSome of this reported work has also been implemented in dedicated\nhardware/software platforms.",
+    "authors": [
+        "Khurram Waheed",
+        "Fathi M. Salem"
+    ],
+    "id": "waheed03a",
+    "issue": 54,
+    "pages": [
+        1411,
+        1446
+    ],
+    "title": "Blind Source Recovery: A Framework in the State Space",
+    "volume": "4",
+    "year": "2003"
+}

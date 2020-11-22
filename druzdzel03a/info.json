@@ -1,0 +1,16 @@
+{
+    "abstract": "Building probabilistic and decision-theoretic models requires a\nconsiderable knowledge engineering effort in which the most\ndaunting task is obtaining the numerical parameters. Authors of\nBayesian networks usually combine various sources of information,\nsuch as textbooks, statistical reports, databases, and expert\njudgement. In this paper, we demonstrate the risks of such a\ncombination, even when this knowledge encompasses such seemingly\npopulation-independent characteristics as sensitivity and\nspecificity of medical symptoms. We show that the criteria ``do\nnot combine knowledge from different sources'' or ``use only data\nfrom the setting in which the model will be used'' are neither\nnecessary nor sufficient to guarantee the correctness of the\nmodel. Instead, we offer graphical criteria for determining when\nknowledge from different sources can be safely combined into the\ngeneral population model. We also offer a method for building\nsubpopulation models. The analysis performed in this paper and the\ncriteria we propose may be useful in such fields  as knowledge\nengineering, epidemiology, machine learning, and statistical\nmeta-analysis.",
+    "authors": [
+        "Marek J. Druzdzel",
+        "Francisco J. D&iacute;ez"
+    ],
+    "id": "druzdzel03a",
+    "issue": 12,
+    "pages": [
+        295,
+        316
+    ],
+    "title": "Combining Knowledge from Different Sources in Causal Probabilistic Models",
+    "volume": "4",
+    "year": "2003"
+}

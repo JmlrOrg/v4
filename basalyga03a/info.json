@@ -1,0 +1,16 @@
+{
+    "abstract": "The learning dynamics of on-line independent component analysis is analysed in the limit of large data dimension. We study a \r\nsimple Hebbian learning algorithm that can be used to separate out a small number of non-Gaussian components from a \r\nhigh-dimensional data set. The de-mixing matrix parameters are confined to a Stiefel manifold of tall, orthogonal matrices \r\nand we introduce a natural gradient variant of the algorithm which is appropriate to learning on this manifold. For large \r\ninput dimension the parameter trajectory of both algorithms passes through a sequence of unstable fixed points, each \r\ndescribed by a diffusion process in a polynomial potential. Choosing the learning rate too large increases the escape time \r\nfrom each of these fixed points, effectively trapping the learning in a sub-optimal state.  In order to avoid these trapping \r\nstates a very low learning rate must be chosen during the learning transient, resulting in learning time-scales of <i>O</i>(<i>N</i><sup>2</sup>) \r\nor <i>O</i>(<i>N</i><sup>3</sup>) iterations where <i>N</i> is the data dimension. Escape from each sub-optimal state results in a sequence of symmetry \r\nbreaking events as the algorithm learns each source in turn. This is in marked contrast to the learning dynamics displayed \r\nby related on-line learning algorithms for multilayer neural networks and principal component analysis. Although the natural \r\ngradient variant of the algorithm has nice asymptotic convergence properties, it has an equivalent transient dynamics to the \r\nstandard Hebbian algorithm.",
+    "authors": [
+        "Gleb Basalyga",
+        "Magnus Rattray"
+    ],
+    "id": "basalyga03a",
+    "issue": 53,
+    "pages": [
+        1393,
+        1410
+    ],
+    "title": "Statistical Dynamics of On-line Independent Component Analysis",
+    "volume": "4",
+    "year": "2003"
+}

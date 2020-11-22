@@ -1,0 +1,17 @@
+{
+    "abstract": "In biological data, it is often the case that observed data are\navailable only for a subset of samples.  When a kernel matrix is\nderived from such data, we have to leave the entries for unavailable\nsamples as missing. In this paper, the missing entries are completed\nby exploiting an auxiliary kernel matrix derived from another\ninformation source.  The parametric model of kernel matrices is\ncreated as a set of spectral variants of the auxiliary kernel matrix,\nand the missing entries are estimated by fitting this model to the\nexisting entries.  For model fitting, we adopt the <i>em</i> algorithm\n(distinguished from the EM algorithm of Dempster et al., 1977) based\non the information geometry of positive definite matrices.  We will\nreport promising results on bacteria clustering experiments using two\nmarker sequences: 16S and gyrB.",
+    "authors": [
+        "Koji Tsuda",
+        "Shotaro Akaho",
+        "Kiyoshi Asai"
+    ],
+    "id": "tsuda03a",
+    "issue": 4,
+    "pages": [
+        67,
+        81
+    ],
+    "title": "The em Algorithm for Kernel Matrix Completion with Auxiliary Data",
+    "volume": "4",
+    "year": "2003"
+}

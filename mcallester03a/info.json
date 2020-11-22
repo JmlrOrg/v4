@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper gives distribution-free concentration\ninequalities for the missing mass and the error rate of histogram rules.\nNegative association methods can be used to reduce these concentration\nproblems to concentration questions about independent sums.  Although\nthe sums are independent, they are highly heterogeneous.  Such\nhighly heterogeneous independent sums cannot be analyzed using standard\nconcentration inequalities such as Hoeffding's inequality, the\nAngluin-Valiant bound, Bernstein's inequality, Bennett's inequality,\nor McDiarmid's theorem.  The concentration inequality for histogram rule error\nis motivated by the desire to construct a new class of bounds on the generalization\nerror of decision trees.",
+    "authors": [
+        "David McAllester",
+        "Luis Ortiz"
+    ],
+    "id": "mcallester03a",
+    "issue": 35,
+    "pages": [
+        895,
+        911
+    ],
+    "title": "Concentration Inequalities for the Missing Mass and for Histogram Rule Error",
+    "volume": "4",
+    "year": "2003"
+}

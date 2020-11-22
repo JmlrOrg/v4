@@ -1,0 +1,15 @@
+{
+    "abstract": "Support vector machines (SVMs) construct decision functions that are linear combinations\nof kernel evaluations on the training set. The samples with non-vanishing coefficients\nare called support vectors. In this work we establish lower (asymptotical)\nbounds on the number of support vectors. On our way we prove several results\nwhich are of great importance for the understanding of SVMs.\nIn particular, we describe to which \"limit\"\nSVM decision functions tend, discuss the corresponding notion of convergence\nand provide some results on the stability of SVMs using subdifferential calculus\nin the associated reproducing kernel Hilbert space.",
+    "authors": [
+        "Ingo Steinwart"
+    ],
+    "id": "steinwart03a",
+    "issue": 41,
+    "pages": [
+        1071,
+        1105
+    ],
+    "title": "Sparseness of Support Vector Machines",
+    "volume": "4",
+    "year": "2003"
+}

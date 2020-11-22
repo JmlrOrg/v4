@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>Repair-based search algorithms start with an initial solution and\nattempt to improve it by iteratively applying repair operators.\nSuch algorithms can often handle large-scale problems that may be\ndifficult for systematic search algorithms. Nevertheless, the\ncomputational cost of solving such problems is still very high.\nWe observed that many of the repair steps applied by such\nalgorithms are redundant in the sense that they do not eventually\ncontribute to finding a solution. Such redundant steps are\nparticularly harmful in repair-based search, where each step\ncarries high cost due to the very high branching factor typically\nassociated with it.\n</p>\n<p>\nAccurately identifying and avoiding such redundant steps would\nresult in faster local search without harming the algorithm's\nproblem-solving ability. In this paper we propose a speedup\nlearning methodology for attaining this goal. It consists of the\nfollowing steps: defining the concept of a <em>redundant step</em>;\nacquiring this concept during off-line learning by analyzing\nsolution paths for training problems, tagging all the steps along\nthe paths according to the redundancy definition and using an\ninduction algorithm to infer a classifier based on the tagged\nexamples; and using the acquired classifier to filter out redundant\nsteps while solving unseen problems.\n</p>\n<p>\nOur algorithm was empirically tested on instances of real-world\nemployee timetabling problems (ETP). The problem solver to be\nimproved is based on one of the best methods for solving some\nlarge ETP instances. Our results show a significant improvement\nin speed for test problems that are similar to the given example\nproblems.\n</p>",
+    "authors": [
+        "Shaul Markovitch",
+        "Asaf Shatil"
+    ],
+    "id": "markovitch03a",
+    "issue": 26,
+    "pages": [
+        649,
+        682
+    ],
+    "title": "Speedup Learning for Repair-based Search by Identifying Redundant Steps",
+    "volume": "4",
+    "year": "2003"
+}

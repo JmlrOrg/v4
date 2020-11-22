@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper, we give a mistake-bound for learning arbitrary\n  linear-threshold concepts that are allowed to change over time in\n  the on-line model of learning.  We use a variation of the Winnow\n  algorithm and show that the bounds for learning shifting\n  linear-threshold functions have many of the same advantages that the\n  traditional Winnow algorithm has on fixed concepts.  These benefits\n  include a weak dependence on the number of irrelevant attributes,\n  inexpensive runtime, and robust behavior against noise.  In fact, we\n  show that the bound for tracking Winnow has even better performance\n  with respect to irrelevant attributes.  Let <i>X</i>&isin;[0,1]<sup><i>n</i></sup> be an\n  instance of the learning problem.  In the previous bounds, the\n  number of mistakes depends on ln<i>n</i>.  In this paper, the shifting\n  concept bound depends on max ln(||<i>X</i>||<sub>1</sub>).  We show that\n  this behavior is a result of certain parameter choices in the\n  tracking version of Winnow, and we show how to use related\n  parameters to get a similar mistake bound for the traditional\n  fixed concept version of Winnow.",
+    "authors": [
+        "Chris Mesterharm"
+    ],
+    "id": "mesterharm03a",
+    "issue": 32,
+    "pages": [
+        819,
+        838
+    ],
+    "title": "Tracking Linear-threshold Concepts with Winnow",
+    "volume": "4",
+    "year": "2003"
+}

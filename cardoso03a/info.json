@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>  \n  Independent component analysis (ICA) is the decomposition of a random vector in linear\n  components which are \"as independent as possible.\"  Here, \"independence\" should be understood\n  in its strong statistical sense: it goes beyond (second-order) decorrelation and thus\n  involves the non-Gaussianity of the data.\n\n  The ideal measure of independence is the \"mutual information\" and is known to be related to\n  the entropy of the components when the search for components is restricted to uncorrelated\n  components.\n\n  This paper explores the connections between mutual information, entropy and non-Gaussianity\n  in a larger framework, without resorting to a somewhat arbitrary decorrelation constraint.  A\n  key result is that the mutual information can be decomposed, under linear transforms, as the\n  sum of two terms: one term expressing the decorrelation of the components and one expressing\n  their non-Gaussianity.\n</p>\n  <p>\n  Our results extend the previous understanding of these connections and explain them in the\n  light of information geometry.  We also describe the \"local geometry\" of ICA by re-expressing\n  all our results via a Gram-Charlier expansion by which all quantities of interest are\n  obtained in terms of cumulants.\n</p>",
+    "authors": [
+        "Jean-Fran&ccedil;ois Cardoso"
+    ],
+    "id": "cardoso03a",
+    "issue": 44,
+    "pages": [
+        1177,
+        1203
+    ],
+    "title": "Dependence, Correlation and  Gaussianity in Independent Component Analysis",
+    "volume": "4",
+    "year": "2003"
+}

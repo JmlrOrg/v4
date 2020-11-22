@@ -1,0 +1,19 @@
+{
+    "abstract": "We present an approach to elicitation of user preference models in which assumptions can be used\nto guide but not constrain the elicitation process. We demonstrate that when domain knowledge is\navailable, even in the form of weak and somewhat inaccurate assumptions, significantly less data\nis required to build an accurate model of user preferences than when no domain knowledge is\nprovided. This approach is based on the KBANN (Knowledge-Based Artificial Neural Network)\nalgorithm pioneered by Shavlik and Towell (1989). We demonstrate this\napproach through two examples, one involves preferences under certainty, and the other involves\npreferences under uncertainty. In the case of certainty, we show how to encode assumptions\nconcerning preferential independence and monotonicity in a KBANN network, which can be trained\nusing a variety of preferential information including simple binary classification. In the case of\nuncertainty, we show how to construct a KBANN network that encodes certain types of dominance\nrelations and attitude toward risk. The resulting network can be trained using answers to standard\ngamble questions and can be used as an approximate representation of a person's preferences. We\nempirically evaluate our claims by comparing the KBANN networks with simple backpropagation\nartificial neural networks in terms of learning rate and accuracy. For the case of uncertainty,\nthe answers to standard gamble questions used in the experiment are taken from an actual medical\ndata set first used by Miyamoto and Eraker (1988). In the case of\ncertainty, we define a measure to which a set of preferences violate a domain theory, and examine\nthe robustness of the KBANN network as this measure of domain theory violation varies.",
+    "authors": [
+        "Peter Haddawy",
+        "Vu Ha",
+        "Angelo Restificar",
+        "Benjamin Geisler",
+        "John Miyamoto"
+    ],
+    "id": "haddawy03a",
+    "issue": 13,
+    "pages": [
+        317,
+        337
+    ],
+    "title": "Preference Elicitation via Theory Refinement",
+    "volume": "4",
+    "year": "2003"
+}

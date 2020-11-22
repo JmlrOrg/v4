@@ -1,0 +1,17 @@
+{
+    "abstract": "A regularized boosting method is introduced, for which regularization\nis obtained through a penalization function. It is shown through\noracle inequalities that this method is model adaptive.  The rate of\nconvergence of the probability of misclassification is investigated.\nIt is shown that for\nquite a large class of distributions, the probability of error\nconverges to the Bayes risk at a rate\nfaster than <i>n</i><sup>-(<i>V</i>+2)/(4(<i>V</i>+1))</sup> where <i>V</i> is the VC dimension\nof the \"base\" class whose elements are combined by boosting methods\nto obtain an aggregated classifier.  The dimension-independent nature\nof the rates may partially explain the good behavior of these methods\nin practical problems. Under Tsybakov's noise condition the rate of\nconvergence is even faster. We investigate the conditions necessary to\nobtain such rates for different base classes.  The special case of\nboosting using decision stumps is studied in detail. We characterize\nthe class of classifiers realizable by aggregating decision stumps. It\nis shown that some versions of boosting work especially well in\nhigh-dimensional logistic additive models.  It appears that adding a\nlimited labelling noise to the training data may in certain cases\nimprove the convergence, as has been also suggested by other authors.",
+    "authors": [
+        "Gilles Blanchard",
+        "G&aacute;bor Lugosi",
+        "Nicolas Vayatis"
+    ],
+    "id": "blanchard03a",
+    "issue": 34,
+    "pages": [
+        861,
+        894
+    ],
+    "title": "On the Rate of Convergence of Regularized Boosting Classifiers",
+    "volume": "4",
+    "year": "2003"
+}

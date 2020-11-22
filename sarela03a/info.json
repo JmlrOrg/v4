@@ -1,0 +1,16 @@
+{
+    "abstract": "The present paper is written as a word of caution, with users of\r\n  independent component analysis (ICA) in mind, to overlearning\r\n  phenomena that are often observed.<br>\r\n  We consider two types of overlearning, typical to high-order\r\n  statistics based ICA.  These algorithms can be seen to maximise the\r\n  negentropy of the source estimates.  The first kind of overlearning\r\n  results in the generation of spike-like signals, if there are not\r\n  enough samples in the data or there is a considerable amount of\r\n  noise present.  It is argued that, if the data has power spectrum\r\n  characterised by 1/<i>f</i> curve, we face a more severe problem, which\r\n  cannot be solved inside the strict ICA model. This overlearning is\r\n  better characterised by bumps instead of spikes. Both overlearning\r\n  types are demonstrated in the case of artificial signals as well as\r\n  magnetoencephalograms (MEG). Several methods are suggested to\r\n  circumvent both types, either by making the estimation of the ICA\r\n  model more robust or by including further modelling of the data.",
+    "authors": [
+        "Jaakko S&auml;rel&auml",
+        "Ricardo Vig&aacute;rio"
+    ],
+    "id": "sarela03a",
+    "issue": 55,
+    "pages": [
+        1447,
+        1469
+    ],
+    "title": "Overlearning in Marginal Distribution-Based ICA: Analysis and Solutions",
+    "volume": "4",
+    "year": "2003"
+}

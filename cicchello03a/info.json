@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper provides a comprehensive survey of the field of grammar induction \napplied to randomly generated languages using sparse example sets.",
+    "authors": [
+        "Orlando Cicchello",
+        "Stefan C. Kremer"
+    ],
+    "id": "cicchello03a",
+    "issue": 24,
+    "pages": [
+        603,
+        632
+    ],
+    "title": "Inducing Grammars from Sparse Data Sets: A Survey of Algorithms and Results",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>Kernels are typically applied to linear algorithms\nwhose weight vector is a linear combination\nof the feature vectors of the examples.\nOn-line versions of these algorithms are sometimes\ncalled \"additive updates\" because they add a multiple of the last\nfeature vector to the current weight vector.\n</p>\n<p>\nIn this paper we have found a way to use special convolution\nkernels to efficiently implement \"multiplicative\" updates.\nThe kernels are defined by a directed graph.\nEach edge contributes an input.\nThe inputs along a path form a product feature and\nall such products build the feature vector associated\nwith the inputs.\nWe also have a set of probabilities on the edges so\nthat the outflow from each vertex is one.\nWe then discuss multiplicative updates on these\ngraphs where the prediction is essentially a kernel\ncomputation and the update contributes a factor to each edge.\nAfter adding the factors to the edges,\nthe total outflow out of each vertex is not\none any more. However some clever algorithms re-normalize\nthe weights on the paths so that the total\noutflow out of each vertex is one again.\nFinally, we show that if the digraph is built\nfrom a regular expressions, then this can\nbe used for speeding\nup the kernel and re-normalization computations.\n</p>\n<p>\nWe reformulate a large number of multiplicative\nupdate algorithms using path kernels\nand characterize the applicability of our method.\nThe examples include\nefficient algorithms for learning disjunctions\nand a recent algorithm that predicts as well\nas the best pruning of a series parallel digraphs.\n</p>",
+    "authors": [
+        "Eiji Takimoto",
+        "Manfred K. Warmuth"
+    ],
+    "id": "takimoto03a",
+    "issue": 31,
+    "pages": [
+        773,
+        818
+    ],
+    "title": "Path Kernels and Multiplicative Updates",
+    "volume": "4",
+    "year": "2003"
+}

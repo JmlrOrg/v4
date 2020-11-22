@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWe describe a new boosting algorithm that is the first such algorithm to be\n  both smooth and adaptive.\n  These two features make possible performance improvements for many\n  learning tasks whose solutions use a boosting technique.\n</p>\n<p>\n  The boosting approach was originally suggested for the standard PAC model;\n  we analyze possible applications of boosting in the context of agnostic\n  learning, which is more realistic than the PAC model.\n  We derive a lower bound for the final error achievable by boosting in the\n  agnostic model and show that our algorithm actually achieves that accuracy\n  (within a constant factor).\n</p>\n<p>\n  We note that the idea of applying boosting in the agnostic model\n  was first suggested by Ben-David, Long and Mansour (2001) and the solution they give\n  is improved in the present paper.\n  The accuracy we achieve is exponentially better with respect to the standard\n  agnostic accuracy parameter &beta;.\n</p>\n<p>\n  We also describe the construction of a boosting \"tandem\" whose asymptotic\n  number of iterations is the lowest possible (in both &gamma; and &epsilon;\n  and whose smoothness is optimal in terms of <i>&#213;</i>(&#183;).\n  This allows adaptively solving problems whose solution is based on smooth\n  boosting (like noise tolerant boosting and DNF membership learning), while\n  preserving the original (non-adaptive) solution's complexity.\n</p>",
+    "authors": [
+        "Dmitry Gavinsky"
+    ],
+    "id": "gavinsky03a",
+    "issue": 6,
+    "pages": [
+        101,
+        117
+    ],
+    "title": "Optimally-Smooth Adaptive Boosting and Application to Agnostic Learning",
+    "volume": "4",
+    "year": "2003"
+}

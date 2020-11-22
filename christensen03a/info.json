@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nIn the adaptive derivation of mathematical models from data, each data point should contribute with a weight reflecting the amount of confidence one has in it. When no additional information for data confidence is available, all the data points should be considered equal, and are also generally given the same weight. In the formation of committees of models, however, this is often not the case and the data points may exercise unequal, even random, influence over the committee formation.\n</p>\n<p>\nIn this paper, a principled approach to committee design is presented.  The construction of a committee design matrix is detailed through which each data point will contribute to the committee formation with a fixed weight, while contributing with different individual weights to the derivation of the different constituent models, thus encouraging model diversity whilst not biasing the committee inadvertently towards any particular data points. Not distinctly an algorithm, it is instead a framework within which several different committee approaches may be realised.\n</p>\n<p>\nWhereas the focus in the paper lies entirely on regression, the principles discussed extend readily to classification.\n</p>",
+    "authors": [
+        "Stefan W. Christensen",
+        "Ian Sinclair",
+        "Philippa A. S. Reed"
+    ],
+    "id": "christensen03a",
+    "issue": 3,
+    "pages": [
+        39,
+        66
+    ],
+    "title": "Designing Committees of Models through Deliberate Weighting of Data Points",
+    "volume": "4",
+    "year": "2003"
+}

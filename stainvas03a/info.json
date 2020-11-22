@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nIt is well known that even slight changes in nonuniform illumination\nlead to a large image variability  and are crucial  for\nmany visual tasks. This paper presents a new ICA related\nprobabilistic model where the number of sources exceeds the number of\nsensors to  perform an image segmentation and  illumination removal, simultaneously.\nWe model illumination and reflectance in log space\nby a generalized autoregressive process and Hidden Gaussian Markov random field, respectively.\n</p>\n<p>\nThe model ability to deal with segmentation of illuminated images\nis compared with a Canny edge detector and homomorphic filtering.\nWe apply the model to two problems: synthetic image segmentation and\nsea surface pollution detection from intensity images.\n</p>",
+    "authors": [
+        "Inna Stainvas",
+        "David Lowe"
+    ],
+    "id": "stainvas03a",
+    "issue": 57,
+    "pages": [
+        1499,
+        1519
+    ],
+    "title": "A Generative Model for Separating Illumination and Reflectance from Images",
+    "volume": "4",
+    "year": "2003"
+}

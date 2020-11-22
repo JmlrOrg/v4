@@ -1,0 +1,17 @@
+{
+    "abstract": "Many regression and classification algorithms proposed over the years can be described as greedy procedures for the stagewise\r\nminimization of an appropriate cost function. Some examples\r\ninclude additive models, matching pursuit, and boosting. In this\r\nwork we focus on the classification problem, for which many recent\r\nalgorithms have been proposed and applied successfully. For a\r\nspecific regularized form of greedy stagewise optimization, we\r\nprove consistency of the approach under rather general conditions.\r\nFocusing on specific classes of problems we provide conditions\r\nunder which our greedy procedure achieves the (nearly) minimax\r\nrate of convergence, implying that the procedure cannot be\r\nimproved in a worst case setting. We also construct a fully\r\nadaptive procedure, which, without knowing the smoothness\r\nparameter of the decision boundary, converges at the same rate as\r\nif the smoothness parameter were known.",
+    "authors": [
+        "Shie Mannor",
+        "Ron Meir",
+        "Tong Zhang"
+    ],
+    "id": "mannor03a",
+    "issue": 28,
+    "pages": [
+        713,
+        742
+    ],
+    "title": "Greedy Algorithms for Classification -- Consistency, Convergence Rates, and Adaptivity",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents a new algorithm for the independent components\r\nanalysis (ICA) problem based on an efficient entropy estimator.  Like\r\nmany previous methods, this algorithm directly minimizes the measure\r\nof departure from independence according to the estimated\r\nKullback-Leibler divergence between the joint distribution and the\r\nproduct of the marginal distributions. We pair this approach with\r\nefficient entropy estimators from the statistics literature. In\r\nparticular, the entropy estimator we use is consistent and exhibits\r\nrapid convergence.  The algorithm based on this estimator is simple,\r\ncomputationally efficient, intuitively appealing, and outperforms\r\nother well known algorithms. In addition, the estimator's relative\r\ninsensitivity to outliers translates into superior performance by our\r\nICA algorithm on outlier tests. We present favorable comparisons to\r\nthe Kernel ICA, FAST-ICA, JADE, and extended Infomax algorithms in\r\nextensive simulations. We also provide public domain source code for\r\nour algorithms.",
+    "authors": [
+        "Erik G. Learned-Miller",
+        "John W. Fisher III"
+    ],
+    "id": "learned-miller03a",
+    "issue": 48,
+    "pages": [
+        1271,
+        1295
+    ],
+    "title": "ICA Using Spacings Estimates of Entropy",
+    "volume": "4",
+    "year": "2003"
+}

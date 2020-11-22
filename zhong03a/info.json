@@ -1,0 +1,16 @@
+{
+    "abstract": "Model-based clustering techniques have been widely used and\nhave shown promising results in many applications involving complex data.\nThis paper presents a unified framework for probabilistic model-based\nclustering based on a bipartite graph view of data and models\nthat highlights the commonalities and differences among existing\nmodel-based clustering algorithms.\nIn this view, clusters are represented as probabilistic models in\na model space that is conceptually separate from the data space.\nFor partitional clustering, the view is conceptually similar\nto the Expectation-Maximization (EM) algorithm.\nFor hierarchical clustering, the graph-based view helps to visualize\ncritical/important distinctions\nbetween similarity-based approaches and model-based approaches.\nThe framework also suggests several useful variations of existing\nclustering algorithms.\nTwo new variations---balanced model-based clustering and hybrid\nmodel-based clustering---are discussed and empirically evaluated\non a variety of data types.",
+    "authors": [
+        "Shi Zhong",
+        "Joydeep Ghosh"
+    ],
+    "id": "zhong03a",
+    "issue": 39,
+    "pages": [
+        1001,
+        1037
+    ],
+    "title": "A Unified Framework for Model-based Clustering",
+    "volume": "4",
+    "year": "2003"
+}

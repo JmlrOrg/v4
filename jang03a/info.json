@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents a new technique for achieving blind signal\r\nseparation when given only a single channel recording. The\r\nmain concept is based on exploiting <em>a priori</em> sets of\r\ntime-domain basis functions learned by independent component\r\nanalysis (ICA) to the separation of mixed source signals\r\nobserved in a single channel. The inherent time structure of\r\nsound sources is reflected in the ICA basis functions, which\r\nencode the sources in a statistically efficient manner. We\r\nderive a learning algorithm using a maximum likelihood\r\napproach given the observed single channel data and sets of\r\nbasis functions. For each time point we infer the source\r\nparameters and their contribution factors. This inference is\r\npossible due to prior knowledge of the basis functions and the\r\nassociated coefficient densities. A flexible model for density\r\nestimation allows accurate modeling of the observation and our\r\nexperimental results exhibit a high level of separation\r\nperformance for simulated mixtures as well as real environment\r\nrecordings employing mixtures of two different sources.",
+    "authors": [
+        "Gil-Jin Jang",
+        "Te-Won Lee"
+    ],
+    "id": "jang03a",
+    "issue": 52,
+    "pages": [
+        1365,
+        1392
+    ],
+    "title": "A Maximum Likelihood Approach to Single-channel Source Separation",
+    "volume": "4",
+    "year": "2003"
+}

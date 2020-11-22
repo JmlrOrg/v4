@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the problem of learning a probabilistic model from the viewpoint of an expected utility maximizing decision maker/investor who would use the model to make decisions (bets), which result in well defined payoffs.\nIn our new approach, we seek good out-of-sample model performance by\n      considering a one-parameter family of Pareto optimal models,\n      which we define in terms of consistency with the training data\n      and consistency with a prior (benchmark) model. We measure the\n      former by means of the large-sample distribution of a vector of\n      sample-averaged features, and the latter by means of a\n      generalized relative entropy.\nWe express each Pareto optimal model as the solution of a strictly convex optimization problem and its strictly concave (and tractable) dual.  Each dual problem is a regularized maximization of expected utility over a well-defined family of functions.\nEach Pareto optimal model is robust: maximizing worst-case outperformance relative to the benchmark model.\nFinally, we select the Pareto optimal model with maximum (out-of-sample) expected utility.\nWe show that our method reduces to the minimum relative entropy method if and only if the utility function is a member of a three-parameter logarithmic family.",
+    "authors": [
+        "Craig Friedman",
+        "Sven Sandow"
+    ],
+    "id": "friedman03a",
+    "issue": 11,
+    "pages": [
+        257,
+        291
+    ],
+    "title": "Learning Probabilistic Models: An Expected Utility Maximization Approach",
+    "volume": "4",
+    "year": "2003"
+}

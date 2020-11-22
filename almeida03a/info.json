@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\r\nLinear Independent Components Analysis (ICA) has become an\r\nimportant signal processing and data analysis technique, the\r\ntypical application being blind source separation in a wide range\r\nof signals, such as biomedical, acoustical and astrophysical ones.\r\nNonlinear ICA is less developed, but has the potential to become\r\nat least as powerful.\r\n</p>\r\n<p>\r\nThis paper presents MISEP, an ICA technique for linear and\r\nnonlinear mixtures, which is based on the minimization of the\r\nmutual information of the estimated components. MISEP is a\r\ngeneralization of the popular INFOMAX technique, which is extended\r\nin two ways: (1) to deal with nonlinear mixtures, and (2) to be\r\nable to adapt to the actual statistical distributions of the\r\nsources, by dynamically estimating the nonlinearities to be used\r\nat the outputs. The resulting MISEP method optimizes a network\r\nwith a specialized architecture, with a single objective function:\r\nthe output entropy.\r\n</p>\r\n<p>\r\nThe paper also briefly discusses the issue of nonlinear source\r\nseparation. Examples of linear and nonlinear source separation\r\nperformed by MISEP are presented.\r\n</p>",
+    "authors": [
+        "Lu&iacute;s B. Almeida"
+    ],
+    "id": "almeida03a",
+    "issue": 49,
+    "pages": [
+        1297,
+        1318
+    ],
+    "title": "MISEP -- Linear and Nonlinear ICA Based on Mutual Information",
+    "volume": "4",
+    "year": "2003"
+}

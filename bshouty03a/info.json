@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe study the proper learnability of axis-parallel concept classes\nin the PAC-learning and exact-learning models.\nThese classes include union of boxes, DNF, \ndecision trees and multivariate polynomials.\n</p>\n<p>\nFor <i>constant</i>-dimensional axis-parallel concepts <i>C</i> we show \nthat the following problems have time complexities that are \nwithin a polynomial factor of each other.\n<ol>\n<li>\n<i>C</i> is &alpha;-properly exactly learnable \n(with hypotheses of size\nat most &alpha; times the target size)\nfrom membership and equivalence queries.\n<li>\n<i>C</i> is &alpha;-properly PAC learnable (without membership queries)\nunder any product distribution.\n<li>\nThere is an &alpha;-approximation algorithm \nfor the MINEQUI<i>C</i> problem (given a <i>g</i> &isin; <i>C</i>\nfind a minimal size <i>f</i> &isin; <i>C</i> that is logically equivalent to\n<i>g</i>).\n</ol>\n</p>\n<p>\nIn particular, if one has polynomial time complexity, they all do.\nUsing this we give the first proper-learning algorithm\nof constant-dimensional decision trees and\nthe first negative results in proper learning from membership\nand equivalence queries for many classes.\n</p>\nFor axis-parallel concepts over a nonconstant dimension we show that \nwith the equivalence oracle (1) &rArr; (3). We use this to \nshow that (binary) decision trees are not properly learnable in \npolynomial time (assuming P &ne; NP) and DNF is not \n<i>s</i><sup>&epsilon;</sup>-properly learnable (&epsilon; < 1) in polynomial \ntime even with an NP-oracle (assuming &Sigma;<sub>2</sub><sup><i>P</i></sup>\n  &ne; <i>P</i><sup><i>NP</i></sup>).\n</p>",
+    "authors": [
+        "Nader H. Bshouty",
+        "Lynn Burroughs"
+    ],
+    "id": "bshouty03a",
+    "issue": 8,
+    "pages": [
+        157,
+        176
+    ],
+    "title": "On the Proper Learning of Axis-Parallel Concepts",
+    "volume": "4",
+    "year": "2003"
+}

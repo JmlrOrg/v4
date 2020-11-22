@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\n  The existence of emotion and cognition as two interacting systems,\n  both with important roles in decision-making, has been recently\n  advocated by neurophysiological research\n  (LeDoux, 1998, Damasio, 1994.  Following that idea, this paper\n  presents the ALEC agent architecture which has both emotive and\n  cognitive learning, as well as emotive and cognitive decision-making\n  capabilities to adapt to real-world environments.  These two\n  learning mechanisms embody very different properties which can be\n  related to those of natural emotion and cognition systems.\n</p>\n<p>\n  The reported experiments test ALEC  within a simulated autonomous\n  robot which learns to perform a multi-goal and multi-step survival\n  task when faced with real world conditions, namely continuous time\n  and space, noisy sensors and unreliable actuators.  Experimental\n  results show that both systems contribute positively to the\n  learning performance of the agent.\n</p>",
+    "authors": [
+        "Sandra Clara Gadanho"
+    ],
+    "id": "gadanho03a",
+    "issue": 17,
+    "pages": [
+        385,
+        412
+    ],
+    "title": "Learning Behavior-Selection by Emotions and Cognition in a Multi-Goal Robot Task",
+    "volume": "4",
+    "year": "2003"
+}

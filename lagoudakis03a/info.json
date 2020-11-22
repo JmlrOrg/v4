@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose a new approach to reinforcement learning for control\nproblems which combines value-function approximation with linear\narchitectures and approximate policy iteration. This new approach is\nmotivated by the least-squares temporal-difference learning algorithm\n(LSTD) for prediction problems, which is known for its efficient use\nof sample experiences compared to pure temporal-difference\nalgorithms. Heretofore, LSTD has not had a straightforward application\nto control problems mainly because LSTD learns the state value\nfunction of a fixed policy which cannot be used for action selection\nand control without a model of the underlying process.  Our new\nalgorithm, least-squares policy iteration (LSPI), learns the\nstate-action value function which allows for action selection without\na model and for incremental policy improvement within a\npolicy-iteration framework. LSPI is a model-free, off-policy method\nwhich can use efficiently (and reuse in each iteration) sample\nexperiences collected in any manner. By separating the\nsample collection method, the choice of the linear approximation\narchitecture, and the solution method, LSPI allows for focused\nattention on the distinct elements that contribute to practical\nreinforcement learning.  LSPI is tested on the simple task of\nbalancing an inverted pendulum and the harder task of balancing and\nriding a bicycle to a target location. In both cases, LSPI learns to\ncontrol the pendulum or the bicycle by merely observing a relatively\nsmall number of trials where actions are selected randomly. LSPI is\nalso compared against <i>Q</i>-learning (both with and without experience\nreplay) using the same value function architecture.  While LSPI\nachieves good performance fairly consistently on the difficult bicycle\ntask, <i>Q</i>-learning variants were rarely able to balance for more than\na small fraction of the time needed to reach the target location.",
+    "authors": [
+        "Michail G. Lagoudakis",
+        "Ronald Parr"
+    ],
+    "id": "lagoudakis03a",
+    "issue": 42,
+    "pages": [
+        1107,
+        1149
+    ],
+    "title": "Least-Squares Policy Iteration",
+    "volume": "4",
+    "year": "2003"
+}

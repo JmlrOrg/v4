@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nTwo or more Bayesian network structures are Markov equivalent when the\ncorresponding acyclic digraphs encode the same set of conditional\nindependencies. Therefore, the search space of Bayesian network structures may\nbe organized in equivalence classes, where each of them represents a\ndifferent set of conditional independencies. The collection of sets of\nconditional independencies obeys a partial order, the so-called \"inclusion\norder.\"\n</p>\n<p>\nThis paper discusses in depth the role that the inclusion order plays in\nlearning the structure of Bayesian networks. In particular, this role involves\nthe way a learning algorithm traverses the search space. We introduce a\ncondition for traversal operators, the <em>inclusion boundary condition</em>,\nwhich, when it is satisfied, guarantees that the search strategy can avoid\nlocal maxima. This is proved under the assumptions that the data is sampled\nfrom a probability distribution which is <em>faithful</em> to an acyclic digraph,\nand the length of the sample is unbounded.\n</p>\n<p>\nThe previous discussion leads to the design of a new traversal operator and\ntwo new learning algorithms in the context of heuristic search and the Markov\nChain Monte Carlo method. We carry out a set of experiments with synthetic and\nreal-world data that show empirically the benefit of striving for the\ninclusion order when learning Bayesian networks from data.\n</p>",
+    "authors": [
+        "Robert Castelo",
+        "Tom&aacute;s Kocka"
+    ],
+    "id": "castelo03a",
+    "issue": 22,
+    "pages": [
+        527,
+        574
+    ],
+    "title": "On Inclusion-Driven Learning of Bayesian Networks",
+    "volume": "4",
+    "year": "2003"
+}

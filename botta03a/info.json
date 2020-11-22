@@ -1,0 +1,18 @@
+{
+    "abstract": "Machine learning strongly relies on the covering test to assess whether\r\na candidate hypothesis covers training examples. \r\nThe present paper investigates learning relational concepts \r\nfrom examples, termed <em>relational learning</em> or <em>inductive logic\r\nprogramming</em>. In particular, it investigates the chances of success\r\nand the computational cost of relational learning, which appears to be severely\r\naffected by the presence of a phase transition in the covering test.\r\nTo this aim, three up-to-date relational learners \r\nhave been applied to a wide range of artificial, fully relational\r\nlearning problems.\r\nA first experimental observation is that \r\nthe phase transition behaves as an attractor \r\nfor relational learning; no matter which region the learning \r\nproblem belongs to,\r\nall three learners produce hypotheses lying within or close to the phase\r\ntransition region.\r\nSecond, a <em>failure region</em> appears. All three learners fail to learn any \r\naccurate hypothesis in this region. \r\nQuite surprisingly, the probability of failure does not \r\nsystematically increase with the size of the underlying target concept: \r\nunder some circumstances, \r\nlonger concepts may be easier to accurately approximate \r\nthan shorter ones. Some  interpretations for these findings are proposed and discussed.",
+    "authors": [
+        "Marco Botta",
+        "Attilio Giordana",
+        "Lorenza Saitta",
+        "Mich&egrave;le Sebag"
+    ],
+    "id": "botta03a",
+    "issue": 19,
+    "pages": [
+        431,
+        463
+    ],
+    "title": "Relational Learning as Search in a Critical Region",
+    "volume": "4",
+    "year": "2003"
+}

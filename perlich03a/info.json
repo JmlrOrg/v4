@@ -1,0 +1,17 @@
+{
+    "abstract": "Tree induction and logistic regression are two standard,\noff-the-shelf methods for building models for classification.  We\npresent a large-scale experimental comparison of logistic regression\nand tree induction, assessing classification accuracy and the quality\nof rankings based on class-membership probabilities.  We use a\nlearning-curve analysis to examine the relationship of these measures\nto the size of the training set.  The results of the study show\nseveral things.  (1) Contrary to some prior observations,\nlogistic regression does not generally outperform tree induction.  (2)\nMore specifically, and not surprisingly, logistic regression is better\nfor smaller training sets and tree induction for larger data sets.\nImportantly, this often holds for training sets drawn from the same\ndomain (that is, the learning curves cross), so conclusions about\ninduction-algorithm superiority on a given domain must be based on an\nanalysis of the learning curves. (3) Contrary to conventional wisdom,\ntree induction is effective at producing probability-based rankings,\nalthough apparently comparatively less so for a given training-set\nsize than at making classifications.  Finally, (4) the domains on\nwhich tree induction and logistic regression are ultimately preferable\ncan be characterized surprisingly well by a simple measure of\nthe separability of signal from noise.",
+    "authors": [
+        "Claudia Perlich",
+        "Foster Provost",
+        "Jeffrey S. Simonoff"
+    ],
+    "id": "perlich03a",
+    "issue": 10,
+    "pages": [
+        211,
+        255
+    ],
+    "title": "Tree Induction vs. Logistic Regression: A Learning-Curve Analysis",
+    "volume": "4",
+    "year": "2003"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "In this short note we highlight the fact that linear blind source separation can be formulated as a generalized eigenvalue \ndecomposition under the assumptions of non-Gaussian, non-stationary, or non-white independent sources. The solution for the \nunmixing matrix is given by the generalized eigenvectors that simultaneously diagonalize the covariance matrix of the \nobservations and an additional symmetric matrix whose form depends upon the particular assumptions. The method critically \ndetermines the mixture coefficients and is therefore not robust to estimation errors.  However it provides a rather general \nand unified solution that summarizes the conditions for successful blind source separation.  To demonstrate the method, which can be implemented in two lines of matlab code, we \npresent results for artificial mixtures of speech and real mixtures of electroencephalography (EEG) data, showing that the \nsame sources are recovered under the various assumptions.",
+    "authors": [
+        "Lucas Parra",
+        "Paul Sajda"
+    ],
+    "id": "parra03a",
+    "issue": 47,
+    "pages": [
+        1261,
+        1269
+    ],
+    "title": "Blind Source Separation via Generalized Eigenvalue Decomposition",
+    "volume": "4",
+    "year": "2003"
+}
